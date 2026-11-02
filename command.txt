@@ -1,0 +1,43 @@
+ipconfig
+ipconfig /all
+ipconfig /release
+ipconfig /renew
+ipconfig /flushdns
+
+ping google.com
+ping 127.0.0.1
+ping 8.8.8.8
+
+tracert google.com
+pathping google.com
+
+nslookup google.com
+hostname
+
+arp -a
+arp -d *
+
+netstat
+netstat -ano
+netstat -r
+
+route print
+getmac
+
+netsh wlan show interfaces
+netsh wlan show profiles
+netsh wlan show drivers
+netsh wlan show networks
+
+netsh interface show interface
+netsh interface ip show config
+
+nbtstat -n
+nbtstat -a COMPUTERNAME
+
+curl https://example.com
+
+systeminfo
+
+Get-NetAdapter
+Get-NetIPAddress
